@@ -2,12 +2,89 @@
 	text-decoration: none;
 	margin: 0px;
 	padding: 0px;
+    text-align: center;
 }
 
 body{
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo a{
+	font-size: 50px;
+	font-weight: 800;
+	float: left;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #fafafa;
+}
+
+.menu{
+	float: right;
+}
+
+div {
+    margin: auto;
+    width: 1920px;
+    height: auto;
+  }
+nav{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: #0D6EFD;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-align: right;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+.rounded-circle img-thumbnail{
+    border-radius: 100%;
+    border: 10px solid #fff;
+    }
+
+
+
+
+
+
+
+#check{
+    display:none;
 }
 
 .jumbotron {

@@ -10,92 +10,15 @@ body{
 	font-family: 'Open Sans',sans-serif;
 }
 
-.wrapper{
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo a{
-	font-size: 50px;
-	font-weight: 800;
-	float: left;
-	font-family: arial;
-	color: #051367;
-}
-
-.menu{
-	float: right;
-}
-
-div {
-    margin: auto;
-    width: 1920px;
-    height: auto;
+.jumbotron {
+    padding-top: 7rem;
+    background-color: #e2edff;
   }
-nav{
-	width: 100%;
-	margin: auto;
-	display: flex;
-	line-height: 80px;
-	position: sticky;
-	position: -webkit-sticky;
-	top: 0;
-	background: #6f9268;
-}
-
-nav ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-
-nav ul li{
-	float: left;
-}
-
-nav ul li a{
-	color: rgb(255, 248, 248);
-	font-weight: bold;
-	text-align: center;
-	padding: 0px 16px 0px 16px;
-	text-decoration: none;
-}
-
-nav ul li a:hover{
-	text-decoration: underline;
-}
-
-section{
-    margin: auto;
-    display: flex;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.kolom{
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
-
-.kolom .deskripsi{
-    font-size: 50px;
-    font-weight: bold;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #006778;
-}
-
-h2{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 800;
-    font-size: 45px;
-    color: #3C78BA;
-    width: 100%;
-    line-height: 50px;
-}
-
-.container{
-    margin-left: 50px;
-}
+  #gallery {
+    background-color: #e2edff;
+  }
+  
+  section {
+    padding-top: 5rem;
+  }
+  
